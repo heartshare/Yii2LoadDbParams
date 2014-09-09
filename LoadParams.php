@@ -1,3 +1,4 @@
+<?php
 namespace sgdot/params;
 
 use yii\base\Component;
