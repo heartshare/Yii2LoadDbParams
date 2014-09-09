@@ -1,0 +1,19 @@
+{
+     "name": "sgdot/Yii2LoadDbParams",
+     "description": "Yii2 load params from db",
+     "authors": [
+         {
+             "name": "Sergei Gulin",
+             "email": "gulin.sergi@ya.ru"
+         }
+     ],
+     "minimum-stability": "dev",
+     "require": {
+         "php": ">=5.4.0"
+     },
+     "autoload": {
+         "psr-0": {
+             "sgdot/params": "sgdot/params/"
+         }
+     }
+ }
