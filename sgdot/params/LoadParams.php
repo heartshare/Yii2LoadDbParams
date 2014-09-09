@@ -15,7 +15,7 @@ class LoadParams extends Component {
         
         $data = $class::find()->all();
         $settings = ArrayHelper::map($data, $attrKey,$attrValue);
-        \Yii::$app->params = array_merge($settings, \Yii::$app->params);    
+        \Yii::$app->params = array_merge(\Yii::$app->params, $settings);
 
     }
 }
