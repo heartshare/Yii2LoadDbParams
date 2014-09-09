@@ -1,5 +1,5 @@
 <?php
-namespace sgdot/params;
+namespace sgdot\params;
 
 use yii\base\Component;
 use yii\base\Event;
