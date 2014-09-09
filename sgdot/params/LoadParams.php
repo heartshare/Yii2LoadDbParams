@@ -2,8 +2,6 @@
 namespace sgdot\params;
 
 use yii\base\Component;
-use yii\base\Event;
-use yii\web\Application;
 use yii\helpers\ArrayHelper;
 
 class LoadParams extends Component {
